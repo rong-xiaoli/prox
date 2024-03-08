@@ -30,7 +30,7 @@ Assuming you have a proper go install, you can just run
 $ go get -u github.com/ollybritton/prox
 ```
 
-This will install the package, as well as the `prox` [command line tool]((#command-line-tool)). The MaxMind GeoIP database is embedded into the binary, which means no additional setup is required. Although this does increase the size (20M for the binary!), I would argue that this is a neccessary evil as it reduces setup and besides, the database would need to stored somewhere anyway.
+This will install the package, as well as the `prox` [command line tool](#command-line-tool). The MaxMind GeoIP database is embedded into the binary, which means no additional setup is required. Although this does increase the size (20M for the binary!), I would argue that this is a neccessary evil as it reduces setup and besides, the database would need to stored somewhere anyway.
 
 
 
